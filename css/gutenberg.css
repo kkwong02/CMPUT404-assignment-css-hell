@@ -1,12 +1,17 @@
 @font-face {
     font-family: 'Black Chancery';
-    src: url('fonts/BLKCHCRY.TTF') format('TrueType');
+    src: url('fonts/BLKCHCRY.TTF') format('TrueType'); /* firefox blocks this if just using file://, works when served with a webserver. */
 }
 
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(107, 89, 89);
     background-color: rgb(248, 241, 238);
+}
+
+pre {
+    margin-left: 270px;
+    padding: 0 15% 0 15%;
 }
 
 p {
@@ -17,9 +22,23 @@ p {
 }
 
 h1 {
-    font-size: 3em;
-    /* letter-spacing: 0.1em; */
+    font-size: 2em;
+    letter-spacing: 0.1em;
     text-align: center;
+}
+
+img {
+    max-width: 500px;
+    margin: auto;
+}
+
+h2::first-letter {
+    font-size: 1.4em;
+}
+
+.book-content {
+    padding: 0 15% 0 15%;
+    margin-left: 270px;
 }
 
 .book-content h2 {
@@ -31,16 +50,8 @@ h1 {
     
 }
 
-h2::first-letter {
-    font-size: 1.4em;
-}
-
 .table-of-contents {
     margin: auto;
-}
-
-.book-content {
-    padding: 0 15% 0 15%;
 }
 
 .chapter {
@@ -53,3 +64,19 @@ h2::first-letter {
     font-size: 2.4em;
 }
 
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #9e3543;
+    overflow: auto;
+    padding: 10px;
+}
+
+.sidebar h2 {
+    color: white;
+    text-align: center;
+    display: block;
+}
