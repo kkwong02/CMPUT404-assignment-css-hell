@@ -37,7 +37,8 @@ img {
 }
 
 figcaption {
-
+    font-size: 0.7em;
+    text-align: center;
 }
 
 h3::first-letter {
