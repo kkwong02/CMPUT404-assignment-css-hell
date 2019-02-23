@@ -12,6 +12,19 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+
+## Changes made to the Gutenberg HTML
+
+For all:
+ [*] The table of contents was reformatted with a `nav` element and an `ol`
+ [*] Ran HTML through a beautifier to make it easier to read
+ [*] Added `div` tags around the chapters, and removed any extra spaces.
+
+For 1.html
+ [*] Changed the `h2` tag to `h3` for chapter titles to match the other two books.
+ [*] Removed spacers like `<p><br><br><br><br></p>` and replaced with css padding
+
+
 License/Copyright
 =================
 
