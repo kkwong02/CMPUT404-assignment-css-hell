@@ -1,0 +1,98 @@
+ /* Background pattern from Toptal Subtle Patterns */
+ body {
+    display: flex;
+
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 1.1em;
+    box-sizing: border-box;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0px;
+    background: #fff;
+}
+.header {
+    position: relative;
+    height: 400px;
+    background: radial-gradient(white , blue);
+    text-align: center;
+}
+
+.logo {
+    font-size: 4em;
+
+    /*  Rainbow text from https://rainbowcoding.com/2011/12/02/how-to-create-rainbow-text-in-html-css-javascript/ */
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    line-height: 0em;
+}
+
+.banner img {
+    height: 200px;
+}
+
+.navbar {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    height: 45px;
+    background: linear-gradient(yellow, orange);
+    /* font-size: 1.2em; */
+    position: absolute;
+    bottom: 20px;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    position: relative;
+}
+
+.nav-item {
+    display: inline-block;
+    height: 45px;
+    margin-right: 1.2em;
+}
+
+.active {
+    color: blue;
+}
+
+
+
+.content-wrapper {
+    display: flex;
+    padding: 0 15px 0 15px;
+    flex-grow: 1;
+}
+.content {
+    float:left;
+    padding: 15px;
+}
+
+.sidebar {
+    min-width: 250px;
+    order: 99;
+    margin: 15px 0 10px 10px;
+    background: rgb(188, 226, 156);
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.page-footer {
+    padding: 10px;
+    height: 30px;
+    background-color: #28292c;
+    box-shadow: 0 -3px 10px -3px #777;
+    color: white;
+    text-shadow: 1px 2px 2px #242424;
+}
