@@ -89,6 +89,20 @@ body {
     color: #4eb3ee;
 }
 
+.icon {
+    height:30px;
+    width: 30px;
+    fill: #fff;
+}
+
+.icon:hover {
+    fill: #009bf6;
+}
+
+.icon:visited {
+    color: #4eb3ee;
+}
+
 .content-wrapper {
     display: flex;
     padding: 0 15px 0 15px;
@@ -148,3 +162,4 @@ section {
     margin-right: 20px;
     box-shadow: -10px 10px 10px 0 #666;
 }
+
