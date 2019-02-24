@@ -40,7 +40,25 @@ For 1.html
 For 2.html
 * Moved the ids for the chapters to the header itself, rather than an empty paragraph above the chapter
 
-License/Copyright
+
+Fonts Used
+===========
+Hosted fonts were used because Firefox does not support loading fonts from files directly without changing browser settings (worked fine with Chromium though!).
+
+* For Drop caps in the books: [Tangerine](https://fonts.google.com/specimen/Tangerine)
+* Font in ugly.html:  [Architects Daughter](https://fonts.google.com/specimen/Architects+Daughter)
+
+Images
+=================
+* Guternberg books and good.html background: [Toptal Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)
+* Github and LinkedIn Icons: [IonIcons](https://ionicons.com/)
+
+External sources
+================
+* [CSS Speech bubble](https://codingislove.com/css-speech-bubbles/)
+* [Rainbow text](https://rainbowcoding.com/2011/12/02/how-to-create-rainbow-text-in-html-css-javascript/)
+
+Original Assignment License/Copyright
 =================
 
 Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
