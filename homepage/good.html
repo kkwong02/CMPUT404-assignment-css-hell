@@ -3,6 +3,7 @@
     <head>
         <title>Good</title>
         <link rel="stylesheet" type="text/css" href="../css/good.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     </head>
     <body>
         <div class="page-wrapper">
@@ -16,34 +17,72 @@
                 </div>
                 <nav class="navbar">
                     <ul class="navbar-nav">
-                        <li class="nav-item active">Home</li>
-                        <li class="nav-item">Change me</li>
-                        <li class="nav-item">Change me 2</li>
-                        <li class="nav-item">Change me 3</li>
+                        <li class="nav-item"><a href="#about">About Me</a></li>
+                        <li class="nav-item"><a href="#work">Past Work</a></li>
+                        <li class="nav-item"><a href="#what-i-have-to-offer">What I Have to Offer</a></li>
                     </ul>
                 </nav>
             </header>
             <div class="content-wrapper">
                 <div class="sidebar">
-                    <h3>Hi</h3>
-                    <p>bunnies</p>
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Python: Intermediate</li>
+                        <li>C/C++: Beginner</li>
+                        <li>C#: Beginner</li>
+                        <li>Java: Beginner</li>
+                        <li>JavaScript: Beginner</li>
+                    </ul>
+
+                    <h3>Frameworks</h3>
+                    <ul>
+                        <li>Django: Intermediate</li>
+                        <li>React.js: Beginner</li>
+                    </ul>
+
 
                 </div>
-                <div class="content">
-                    <h2>One </h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum convallis ligula. Ut nec hendrerit tortor, eu sodales erat. Phasellus vestibulum, ante ac pulvinar egestas, nibh nulla vulputate justo, sit amet tempus urna ligula eu ex. Sed semper, arcu in semper vulputate, sapien ipsum placerat tortor, ut rutrum erat velit eget mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi consequat enim et ipsum vestibulum, et iaculis urna pellentesque. In vel purus eget eros imperdiet rutrum at sed turpis. Pellentesque nulla dui, vestibulum eget semper vel, euismod in sem. Proin bibendum erat ipsum, in pretium risus faucibus et. Integer vulputate pulvinar massa ac posuere. Nulla fermentum nisi id erat finibus, sed accumsan turpis luctus. Sed sodales quis eros tincidunt cursus. Sed vehicula vestibulum nunc non fringilla. Etiam mollis velit risus, at cursus dui scelerisque eu. Aliquam elit sapien, ullamcorper interdum dignissim sagittis, efficitur tincidunt tortor. Donec mattis semper risus, in laoreet urna commodo vitae.
-                    </p>
-                    <h2>Two</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia volutpat dolor, non rutrum enim efficitur sit amet. Duis fermentum porttitor dolor sed condimentum. Vivamus justo ante, ultricies ac neque eget, luctus sodales lacus. Vivamus volutpat nisi id placerat efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut massa id odio faucibus pulvinar sit amet vel enim. Integer eu felis dictum, semper turpis eget, aliquam diam. Vestibulum et lectus a sem semper bibendum at nec nibh. Quisque id eros odio. Fusce a purus in quam tincidunt condimentum. Pellentesque tincidunt tortor vel odio malesuada eleifend. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                    </p>
+                <div  class="content">
+                    <section id="about">
+                        <img class="photo" src="../images/photo.jpeg">
+
+                        <div class="section-content">
+                            <h2>About Me</h2>
+                            <p>
+                            I'm a 4th year Computing Science student at the University of Alberta, and expecting to graduate in Fall 2019. My main interests are web and mobile development.
+                            </p>
+                        </div>
+                    </section>
+                    <section id="work">
+                        <div class="section-content">
+                                <h2>Past Work</h2>
+                                <h3>Sept 2017 - Aug 2018: Software Development Intern at Biolargo Water Canada</h3>
+                                <p>Pasteur.io is a browser based Laboratory management and result analysis application. For this project, I contributed in all parts, including the planning and requirements gathering in its inital stages. The backend is built using the Django framework, and the analytics portion of the front end using React.js.</p>
+                                <a href="https://github.com/laingsoft/BioLargo">Project Github</a>
+                        </div>
+                    </section>
+
+                    <section id="what-i-have-to-offer">
+                        <div class="section-content">
+                                <h2>What I have to Offer</h2>
+                                <p>
+                                    <ul>
+                                        <li>I'm a faster learner</li>
+                                        <li>I'm always eager to learn new things and improve my skills</li>
+                                        <li>I work well both alone and as a part of a team</li>
+                                    </ul>
+                                </p>
+                        </div>
+                    </section>
+
                 </div>
             </div>
 
             <footer class="page-footer">
                 <div class="footer-content">
-                    Copyright &copy; 2019 Kirsten Kwong
+
+                        <span class="nav-item"><a href="https://github.com/kkwong02" title="Github"><i class="fab fa-github"></i></a></span>
+                        <span class="nav-item"><a href="#"><i class="fab fa-linkedin"></i></a></span>
                 </div>
             </footer>
         </div>
