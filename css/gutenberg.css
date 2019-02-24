@@ -117,3 +117,7 @@ nav ul {
 nav ol {
     list-style-type: upper-roman;
 }
+
+.right {
+    text-align: right;
+}

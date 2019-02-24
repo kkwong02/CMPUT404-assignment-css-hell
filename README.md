@@ -16,14 +16,16 @@ git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 ## Changes made to the Gutenberg HTML
 
 For all:
- [*] The table of contents was reformatted with a `nav` element and an `ol`
+ [*] Removed origin CSS and replaced with stylesheet
+ [*] Restructured the table of contents to be consistent between the three files.
  [*] Ran HTML through a beautifier to make it easier to read
- [*] Added `div` tags around the chapters, and removed any extra spaces.
+ [*] Added `div` tags around the chapters, and removed any extra spaces between chapters.
 
 For 1.html
  [*] Changed the `h2` tag to `h3` for chapter titles to match the other two books.
- [*] Removed spacers like `<p><br><br><br><br></p>` and replaced with css padding
 
+For 2.html
+ [*] Moved the ids for the chapters to the header itself, rather than an empty paragraph above the chapter
 
 License/Copyright
 =================
