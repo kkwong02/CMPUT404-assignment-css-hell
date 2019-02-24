@@ -13,6 +13,17 @@ Read this comic http://theoatmeal.com/comics/design_hell
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
 
+The Gutenberg HTML files
+=========================
+1.html: [The Strange Case of Dr. Jekyll and Mr. Hyde by Robert Louis Stevenson](https://www.gutenberg.org/ebooks/43)
+
+
+2.html: [A Study in Scarlet by Arthur Conan Doyle](https://www.gutenberg.org/files/244/244-h/244-h.htm)
+
+
+3.html: [Frankenstein; Or, The Modern Prometheus by Mary Wollstonecraft Shelley](https://www.gutenberg.org/ebooks/84)
+
+
 Changes made to the Gutenberg HTML
 ==================================
 
@@ -24,6 +35,7 @@ For all:
 
 For 1.html
 * Changed the `h2` tag to `h3` for chapter titles to match the other two books.
+* Added a caption to the cover image.
 
 For 2.html
 * Moved the ids for the chapters to the header itself, rather than an empty paragraph above the chapter
